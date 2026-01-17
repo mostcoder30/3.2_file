@@ -10,7 +10,7 @@ class Email {
 
   public static void main(String argv[]) throws Exception {
     String user = "s2112376130@ru.ac.bd";
-    String pass = "elfcvgskovosukf";
+    String pass = "password";
 
     String username = new String(Base64.getEncoder().encode(user.getBytes()));
     String password = new String(Base64.getEncoder().encode(pass.getBytes()));
